@@ -1,20 +1,16 @@
 package com.santander;
 
 import com.santander.controller.AccountController;
-import com.santander.dto.AccountDto;
+import com.santander.entity.AccountDto;
 import com.santander.entity.Account;
 import com.santander.exception.AccountNotFoundResponse;
-import com.santander.exception.ErrorResponse;
 import com.santander.exception.InvalidAccountIdResponse;
 import com.santander.service.AccountServiceImpl;
-import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-
 import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
