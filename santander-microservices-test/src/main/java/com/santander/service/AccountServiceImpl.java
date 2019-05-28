@@ -1,19 +1,14 @@
 package com.santander.service;
 
-import com.santander.dto.AccountDto;
+import com.santander.entity.AccountDto;
 import com.santander.exception.AccountNotFoundResponse;
-import com.santander.exception.ErrorResponse;
 import com.santander.repository.AccountRepository;
-import com.santander.service.AccountService;
 import org.glassfish.jersey.internal.guava.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.santander.entity.Account;
-
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

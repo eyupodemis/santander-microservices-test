@@ -1,9 +1,7 @@
 package com.santander.controller;
 
-import com.santander.dto.AccountDto;
+import com.santander.entity.AccountDto;
 import com.santander.entity.Account;
-import com.santander.exception.ErrorResponse;
-import com.santander.exception.InvalidAccountIdResponse;
 import com.santander.service.AccountServiceImpl;
 import com.santander.service.AccountValidator;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 public class AccountController {

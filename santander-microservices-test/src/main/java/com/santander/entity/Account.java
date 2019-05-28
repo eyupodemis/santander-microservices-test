@@ -1,7 +1,6 @@
 package com.santander.entity;
 
 import org.springframework.stereotype.Component;
-
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 

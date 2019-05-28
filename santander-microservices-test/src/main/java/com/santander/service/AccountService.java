@@ -1,10 +1,6 @@
 package com.santander.service;
 
-import com.santander.dto.AccountDto;
-import com.santander.exception.ErrorResponse;
-import com.santander.dto.AccountDto;
-
-import java.io.IOException;
+import com.santander.entity.AccountDto;
 import java.util.List;
 import com.santander.entity.Account;
 
